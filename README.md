@@ -15,3 +15,8 @@ The Museum of modern at New York is famous for its **vast collection of arts**.I
     2. Book a cab
     3. Wait for your driver until he arrives
     4. Board the cab and go to museum.
+
+* Time square
+* Statue of Liberty
+* Brooklyn Bridge
+* Empire State Building
