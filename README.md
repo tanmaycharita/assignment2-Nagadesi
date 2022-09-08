@@ -35,3 +35,13 @@ I like visiting new places and I travel alot. I am passionate about photography 
 | Chicago                           | Sky deck       | $75   |
 | Seattle                           | Space Needle   | $80   |
 | Los Angeles                       | Disneyland     | $250  |
+
+---
+
+# Quotes
+
+> " Whatever you are, be a good one."
+>      - by **Abraham Lincoln**
+>      
+> "What is life, without a little Risk."
+>      - by **J.K. Rowling**
