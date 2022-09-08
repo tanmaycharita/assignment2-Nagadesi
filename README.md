@@ -41,7 +41,7 @@ I like visiting new places and I travel alot. I am passionate about photography 
 # Quotes
 
 > " Whatever you are, be a good one."
->      - by **Abraham Lincoln**
+>      - by *Abraham Lincoln*
 >      
 > "What is life, without a little Risk."
->      - by **J.K. Rowling**
+>      - by *J.K. Rowling*
