@@ -29,12 +29,12 @@ The Museum of modern at New York is famous for its **vast collection of arts**.I
 
 I like visiting new places and I travel alot. I am passionate about photography and I like clicking pictures of places that I visit everytime. So, below are the few places that I would suggest others. Enjoy!!
 
-| City name                         | Location       | Price |
-| ---                               | ---            | ---:  |
-| New York                          | Time Square    | $120  |
-| Chicago                           | Sky deck       | $75   |
-| Seattle                           | Space Needle   | $80   |
-| Los Angeles                       | Disneyland     | $250  |
+| City name                         | Location       | Time in minutes |
+| ---                               | ---            | ---:            |
+| New York                          | Time Square    | 120min          |
+| Chicago                           | Sky deck       | 75min           |
+| Seattle                           | Space Needle   | 80min           |
+| Los Angeles                       | Disneyland     | 250min          |
 
 ---
 
