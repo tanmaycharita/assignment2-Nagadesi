@@ -45,3 +45,43 @@ I like visiting new places and I travel alot. I am passionate about photography 
 >      
 > "What is life, without a little Risk."
 >      - by *J.K. Rowling*
+
+---
+
+# SVG Patterns
+
+> Animating an SVG pattern background
+>
+> I'm currently designing a new website with NextJS and Tailwind and I would like to make a background that is infinitely translating to the bottom right, just like in this example (but with my own pattern):
+
+Question link - <https://stackoverflow.com/questions/67848272/animating-an-svg-pattern-background>
+
+```
+<svg width="100%" height="100%">
+  
+  <!-- Create mask that we'll use to define a slight gradient -->
+  <mask maskUnits="userSpaceOnUse" id="fade">
+    <!-- Here's that slight gradient -->
+     	<linearGradient id="gradient" x1="0" y1="0" x2="0" y2="100%">
+      <stop offset="0" style="stop-color: #FFFFFF"></stop>
+      <stop offset="1" style="stop-color: #000000"></stop>
+    </linearGradient>
+    <!-- The canvas for our mask -->
+    <rect fill="url(#gradient)" width="100%" height="100%"></rect>
+  </mask>
+    
+  <!-- Let's define the pattern -->
+  <!-- The width and height should be double the circle radius we plan to use -->
+  <pattern id="pattern-circles" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+    <!-- Now let's draw the circle -->
+    <!-- We're going to define the `fill` in the CSS for flexible use -->
+    <circle mask="url(#fade)" cx="20" cy="20" r="20"></circle>
+  </pattern>
+  <!-- The canvas with our applied pattern -->
+  <rect x="0" y="0" width="100%" height="100%" fill="url(#pattern-circles)"></rect>
+  
+</svg>
+```
+
+Source link - <https://css-tricks.com/snippets/svg/svg-patterns/>
+
